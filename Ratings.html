@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>Ratings and Reviews</title>
+    <link rel="stylesheet" href="Ratings.css"/>
+   
+</head>
+
+<body>
+    <div class="IMAGE">
+        <div  class="IMAGE" align="center" >
+            <img src="IMAGE/Logo ws.png" alt="Logo" height="100" width="100">
+        </div>
+        <div>
+            <a href="second web.html"class="bbutton" >
+                <img src="IMAGE/back-button.png"
+               alt="back button" style="width: 40%" height="40%"></a>
+        </div>
+
+    <div class="container">
+        <h2><center><FONT style="color: #EB288F;"><h1> Ratings and Reviews </h1></FONT></center></h2>
+
+        <form id="ratingsForm">
+            <label for="product"><FONT style="color: white;"><h3>Select a Product:</h3></FONT></label>
+            <div class="select-container">
+            <select id="product" name="product">
+                <div class="select-container"
+                <option value="product1">Skinesis Foaming Face Wash</option>
+                <option value="product2">Skinesis Bleaching Soap with Mesh</option>
+                <option value="product3">Glass Skin Serum 30ml</option>
+                <option value="product4">Skinesis Glass Skin Set</option>
+                <option value="product5">Skinesis Glass Skin Toner 120ml(Buy one Take one)</option>
+                <option value="product6">Skinesis Botox Serum</option>
+                <option value="product7">Skinesis Tinted Sunscreen(Natural) SPF 50 50g</option>
+                <option value="product8">Wonder Deo Underarm Whiteming Cream 10g</option>
+                <option value="product9">Skinesis Retinol Serum 30g</option>
+                <option value="product10">Skinesis Glow Boost Gel Moisturizer 50g</option>
+                <option value="product11">Skinesis Glam Velvet Liptint</option>
+                <option value="product12">Skin Glam Eyeshadow Palette</option>
+                <option value="product13">Snow Bleach (Bleaching and Whitening Cream) 100g</option>
+                <option value="product14">Lipovela V for V-line countour & whitening</option>
+
+               
+            </select>
+        </div>
+        
+<div class="rate-container">
+    <label for="rating"><FONT style="color: white;"><h3>Select a Rating:</h3></FONT></label>
+    <select id="rating" name="rating">
+        <option value="5">5 stars</option>
+        <option value="4">4 stars</option>
+        <option value="3">3 stars</option>
+        <option value="2">2 stars</option>
+        <option value="1">1 star</option>
+    </select>
+
+    <label for="review"><FONT style="color: white;"><h3>Write your review:</h3></FONT></label>
+    <textarea id="review" name="review" rows="4"></textarea>
+    
+
+    <center><button type="button" onclick="submitForm()"><FONT style="color:white">Submit</FONT></button></center>
+</div>
+
+<script>
+function submitForm() {
+    var rating = document.getElementById("rating").value;
+    var review = document.getElementById("review").value;
+
+    if (rating && review) {
+        alert("Thank you for review!");
+    } else {
+        alert("Please select a rating and write a review.");
+    }
+}
+</script>
+
+        <h2><FONT style="color:#EB288F"><center>PRODUCT RATINGS:</FONT></h2>
+        <center><p><FONT style="color: white;">Skinesis Foaming Face Wash:</FONT> <FONT style="color:#EB288F">★★★★★</FONT></p></center>
+        <center><img src="IMAGE/FOAM.png" height="200" width="200"></center>
+        <center> <p><FONT style="color: white;">Skinesis Glam Velvet Liptint:</FONT> <FONT style="color:#EB288F">★★★★☆</FONT></p></center>
+        <center><img src="IMAGE/GLAM.png"height="200" width="200"></center>
+        <center><p><FONT style="color: white;">Skinesis Glass Skin Set:</FONT> <FONT style="color:#EB288F">★★★★★</p></FONT></center>
+        <center><img src="IMAGE/SET.png"height="200" width="200"></center>
+
+    </div>
+
+    <div class="pcontainer">
+
+        <h2><FONT style="color:#EB288F"><center>PRODUCT PHOTOS:</FONT></h2>
+        <table>
+            <tr>
+                <td><img class="image" src="IMAGE/FOAM.png" height="200" width="200" alt="FOAM"></td>
+                <td><img class="image" src="IMAGE/BOTOX.png" height="200" width="200" alt="BOTOX"></td>
+                <td><img class="image" src="IMAGE/SERUM.png" height="200" width="200" alt="SERUM"></td>
+                <td><img class="image" src="IMAGE/SET.png" height="200" width="200" alt="SET"></td>
+                <td><img class="image" src="IMAGE/TO.png" height="200" width="200" alt="TO"></td>
+            </tr>
+            <tr>
+                <td><img class="image" src="IMAGE/BOTOX.png" height="200" width="200" alt="BOTOX"></td>
+                <td><img class="image" src="IMAGE/SUNSCREEN.png" height="200" width="200" alt="SUNSCREEN"></td>
+                <td><img class="image" src="IMAGE/CREAM.png" height="200" width="200" alt="CREAM"></td>
+                <td><img class="image" src="IMAGE/RET.png" height="200" width="200" alt="RET"></td>
+                <td><img class="image" src="IMAGE/GEL.png" height="200" width="200" alt="GEL"></td>
+            </tr>
+            <tr>
+                <td><img class="image" src="IMAGE/GLAM.png" height="200" width="200" alt="GLAM"></td>
+                <td><img class="image" src="IMAGE/SHAD.png" height="200" width="200" alt="SHAD"></td>
+                <td><img class="image" src="IMAGE/SNOW.png" height="200" width="200" alt="SNOW"></td>
+                <td><img class="image" src="IMAGE/LIPO.png" height="200" width="200" alt="LIPO"></td>
+                <td><img class="image" src="IMAGE/Logo.png" height="200" width="200" alt="Logo"></td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+</html>

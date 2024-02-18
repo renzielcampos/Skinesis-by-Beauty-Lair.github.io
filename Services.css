@@ -1,0 +1,64 @@
+body {
+    background-image: url(IMAGE/Website\ Component.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.btn-primary {
+    font-size: 14px; 
+    padding: 8px 16px;
+    background-color: #ff6dbb;
+    border: 1px solid #ffffff; 
+    border-radius: 10px;
+    position: auto;
+    top: 20px;
+    right: 20px; 
+    width: max-content;
+}
+
+.btn-secondary {
+    font-size: 14px; 
+    padding: 8px 16px;
+    background-color: #ff6dbb;
+    border: 1px solid #ffffff; 
+    border-radius: 10px;
+    position: auto;
+    bottom: 20px;
+    left: 50%;
+    width: max-content;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: #EB288F; 
+    border: 1px solid #ffffff; 
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border: none;
+}
+
+.table1, .table2, .table3, .table4 {
+    position: relative;
+}
+
+.th, .tds {
+    color: #EB288F;
+}
+
+.thp {
+    color: ivory;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

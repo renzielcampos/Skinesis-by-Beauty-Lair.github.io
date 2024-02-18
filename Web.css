@@ -1,0 +1,24 @@
+body {
+    background-image: url(IMAGE/Website\ Component.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.login-container {
+    text-align: center;
+    padding: 10px;
+    margin: 150px auto;
+    width: 300px;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #EDB8D4;
+    border-radius: 30px; 
+}
+
+.image-container{
+    align-items: center;
+}

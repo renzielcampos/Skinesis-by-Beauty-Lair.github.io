@@ -1,0 +1,94 @@
+body {
+    background-image: url(IMAGE/Website\ Component.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: none;
+    padding: 20px;  
+
+    .select-container {
+        position: relative;
+    }
+    .select-container select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+    }
+    .select-container select option {
+        background-color: #EB288F; 
+    }
+   
+    .rate-container {
+        position: relative;
+
+    }
+    .rate-container select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+    }
+    .rate-container select option {
+        background-color: #EB288F; 
+    }
+  
+}
+.pcontainer {
+    max-width: 1000px; 
+    margin: 50px auto;
+    background-color: none;
+    padding: 20px;
+    text-align: center; 
+}
+
+.image {
+    margin: 10px; 
+}
+
+
+
+.bbutton {
+    position: fixed;
+    bottom: 2%;    
+    right: -15vh;     
+    max-width: 15%; 
+    max-height: 15vh; 
+    width: auto;  
+    height: auto; 
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #EB288F;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}

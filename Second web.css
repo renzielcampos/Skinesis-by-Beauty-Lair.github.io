@@ -1,0 +1,30 @@
+body {
+    background-image: url(IMAGE/Website\ Component.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-primary {
+    font-size: 20px; 
+    padding: 8px 16px; 
+    background-color: #ff6dbb;
+    border: 1px solid #ffffff; 
+    border-radius: 10px;
+}
+.btn-secondary {
+    background-color: #ff6dbb;
+    border: #ff6dbb;
+    border: 1px solid #ffffff; 
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: #EB288F; 
+    border: 1px solid #ffffff; 
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

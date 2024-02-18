@@ -1,0 +1,34 @@
+body {
+    background-image: url(IMAGE/Website\ Component.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+.btn-primary {
+    font-size: 20px; 
+    padding: 8px 16px; 
+    background-color: #ff6dbb;
+    border: 1px solid #ffffff; 
+    border-radius: 10px;
+}
+
+.btn-secondary {
+    font-size: 14px; 
+    padding: 8px 16px;
+    background-color: #ff6dbb;
+    border: 1px solid #ffffff; 
+    border-radius: 10px;
+    width: auto;
+    position: absolute;
+    bottom: 20px;
+    left: 80%;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: #EB288F; 
+    border: 1px solid #ffffff; 
+}

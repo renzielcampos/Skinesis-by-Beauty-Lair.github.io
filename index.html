@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Skinesis Beauty Lair</title>
+    <link rel="stylesheet" href="Web.css"/>
+    <script src="login.js"></script>
+</head>
+<body>
+    <div class="image-container">
+        <div class="image" align="center">
+            <a style="text-decoration: none; color: white;" href="https://www.facebook.com/beautylair07">
+            <img src="images/Logo ws.png" alt="Logo" height="100" width="100">
+            </a>
+        </div>
+
+        <div class="login-container">
+            <form id="login-form" method="post" onsubmit="return validateLoginForm();">
+                
+                    <label for="username" class="block" style="color: #EB288F; font-weight: bold;">User Name:</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password" class="block" style="color: #EB288F; font-weight: bold;">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <p id="message" class="hidden"></p>
+
+                    <button type="submit" formmethod="post" form="login-form" formaction="second web.html" style="background-color: #EB288F; color: #ffffff; border: 1px solid #ffffff; border-radius: 5px; font-size: 16px; padding: 10px 20px;">Login</button>
+
+
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>
